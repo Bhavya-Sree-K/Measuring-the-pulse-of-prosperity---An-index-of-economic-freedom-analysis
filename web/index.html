@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse of Prosperity — Economic Freedom Analytics</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Ambient Glows -->
+    <div class="glow-bg glow-primary"></div>
+    <div class="glow-bg glow-secondary"></div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-chart-line"></i></span>
+            <span class="logo-text">Prosperity <span class="highlight">Pulse</span></span>
+        </div>
+        <nav class="nav">
+            <a href="#overview" class="nav-link active"><i class="fa-solid fa-house"></i> Overview</a>
+            <a href="#pillars" class="nav-link"><i class="fa-solid fa-columns"></i> The 4 Pillars</a>
+            <a href="#analysis" class="nav-link"><i class="fa-solid fa-chart-pie"></i> Analysis Results</a>
+            <a href="#sandbox" class="nav-link"><i class="fa-solid fa-gamepad"></i> Predictor Playground</a>
+        </nav>
+        <div class="header-action">
+            <span class="badge badge-success"><span class="pulse"></span> Academic Showcase</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="overview" class="section hero-section">
+            <div class="hero-content">
+                <span class="category-tag"><i class="fa-solid fa-globe"></i> Global Development Analysis</span>
+                <h1>Measuring the Pulse of Prosperity</h1>
+                <p class="subtitle">An index of economic freedom analysis exploring the empirical correlation between institutional quality—Rule of Law, Government Size, Regulatory Efficiency, and Open Markets—and widespread prosperity.</p>
+                <div class="hero-buttons">
+                    <a href="#sandbox" class="btn btn-primary"><i class="fa-solid fa-play"></i> Open Predictor Playground</a>
+                    <a href="#analysis" class="btn btn-outline"><i class="fa-solid fa-chart-area"></i> View Correlation Charts</a>
+                </div>
+            </div>
+            <!-- Quick Project Info -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon icon-purple"><i class="fa-solid fa-earth-americas"></i></div>
+                    <div class="stat-info">
+                        <h3>177</h3>
+                        <p>Countries Scored</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon icon-blue"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="stat-info">
+                        <h3>12</h3>
+                        <p>Freedom Sub-pillars</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon icon-green"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                    <div class="stat-info">
+                        <h3>0.82</h3>
+                        <p>Rule of Law/GDP Corr.</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon icon-orange"><i class="fa-solid fa-bezier-curve"></i></div>
+                    <div class="stat-info">
+                        <h3>Tableau</h3>
+                        <p>Visualized Models</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section id="pillars" class="section">
+            <div class="section-header">
+                <h2>The Four Pillars of Economic Freedom</h2>
+                <p>Economic freedom is grouped into four broad categories, comprising 12 quantitative and qualitative sub-pillars.</p>
+            </div>
+
+            <div class="modalities-grid">
+                <!-- Pillar 1 -->
+                <div class="modality-card glass">
+                    <div class="card-icon"><i class="fa-solid fa-gavel"></i></div>
+                    <h3>Rule of Law</h3>
+                    <p>Defines the legal infrastructure protecting individuals and investments. The strongest correlate with high GDP per Capita.</p>
+                    <ul class="card-bullets">
+                        <li><i class="fa-solid fa-circle-check"></i> Property Rights</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Judicial Effectiveness</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Government Integrity</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="modality-card glass">
+                    <div class="card-icon"><i class="fa-solid fa-coins"></i></div>
+                    <h3>Government Size</h3>
+                    <p>Measures tax rates and governmental expenditures. Generally displays weak or slightly negative correlation with GDP due to high-income state budgets.</p>
+                    <ul class="card-bullets">
+                        <li><i class="fa-solid fa-circle-check"></i> Tax Burden</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Govt Spending</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Fiscal Health</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="modality-card glass">
+                    <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>Regulatory Efficiency</h3>
+                    <p>Evaluates the burden of governmental regulations on starting businesses, managing workers, and price stability.</p>
+                    <ul class="card-bullets">
+                        <li><i class="fa-solid fa-circle-check"></i> Business Freedom</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Labor Freedom</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Monetary Freedom</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="modality-card glass">
+                    <div class="card-icon"><i class="fa-solid fa-ship"></i></div>
+                    <h3>Open Markets</h3>
+                    <p>Evaluates how easily goods, investments, and financial services flow across international borders.</p>
+                    <ul class="card-bullets">
+                        <li><i class="fa-solid fa-circle-check"></i> Trade Freedom</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Investment Freedom</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Financial Freedom</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis / Dashboard Section -->
+        <section id="analysis" class="section">
+            <div class="section-header">
+                <h2>Analysis Dashboard</h2>
+                <p>Observe the visual findings and regional breakdowns generated from the Index of Economic Freedom dataset.</p>
+            </div>
+
+            <div class="tabs-container glass">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="scatter"><i class="fa-solid fa-chart-line"></i> Freedom vs GDP</button>
+                    <button class="tab-btn" data-tab="regional"><i class="fa-solid fa-globe"></i> Regional Comparisons</button>
+                    <button class="tab-btn" data-tab="heatmap"><i class="fa-solid fa-table-cells-animated"></i> Correlation Map</button>
+                    <button class="tab-btn" data-tab="rankings"><i class="fa-solid fa-ranking-star"></i> Global Rankings</button>
+                </div>
+
+                <div class="tabs-content">
+                    <!-- Tab: Freedom vs GDP -->
+                    <div class="tab-pane active" id="tab-scatter">
+                        <div class="perf-layout">
+                            <div class="perf-text">
+                                <h3>Economic Freedom vs. GDP per Capita</h3>
+                                <p>The scatter plot shows a strong positive correlation (R = 0.81) between a country's Overall Economic Freedom Score and its GDP per capita. Countries that score above 70 consistently demonstrate significantly higher standard of living and national prosperity.</p>
+                                <div class="metric-meter-group">
+                                    <div class="metric-meter">
+                                        <div class="meter-info">
+                                            <span>Prosperity Correlation (R)</span>
+                                            <span class="meter-val">0.81</span>
+                                        </div>
+                                        <div class="meter-bar"><div class="meter-fill color-purple" style="width: 81%"></div></div>
+                                    </div>
+                                    <div class="metric-meter">
+                                        <div class="meter-info">
+                                            <span>R-Squared Value (Variance)</span>
+                                            <span class="meter-val">0.66</span>
+                                        </div>
+                                        <div class="meter-bar"><div class="meter-fill color-purple" style="width: 66%"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="perf-chart-container">
+                                <img src="results/freedom_vs_gdp_scatter.png" alt="Scatter Plot of Score vs GDP" class="perf-img">
+                                <span class="chart-caption">Figure 1: Scatter plot showing Economic Freedom Score vs GDP per Capita with regression line.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab: Regional Comparisons -->
+                    <div class="tab-pane" id="tab-regional">
+                        <div class="perf-layout">
+                            <div class="perf-text">
+                                <h3>Regional Breakdown</h3>
+                                <p>Europe leads the global averages with a regional score of 69.5, driven by high Rule of Law scores and Open Markets. In contrast, Sub-Saharan Africa and South Asia exhibit lower averages, suggesting areas where structural reforms could spark growth.</p>
+                                <div class="metric-meter-group" id="regional-meters">
+                                    <!-- Dynamic meters will be loaded by JS or static fallback -->
+                                    <div class="metric-meter">
+                                        <div class="meter-info"><span>Europe</span><span class="meter-val">69.5</span></div>
+                                        <div class="meter-bar"><div class="meter-fill color-blue" style="width: 69.5%"></div></div>
+                                    </div>
+                                    <div class="metric-meter">
+                                        <div class="meter-info"><span>Americas</span><span class="meter-val">59.6</span></div>
+                                        <div class="meter-bar"><div class="meter-fill color-blue" style="width: 59.6%"></div></div>
+                                    </div>
+                                    <div class="metric-meter">
+                                        <div class="meter-info"><span>Asia-Pacific</span><span class="meter-val">58.2</span></div>
+                                        <div class="meter-bar"><div class="meter-fill color-blue" style="width: 58.2%"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="perf-chart-container">
+                                <img src="results/regional_comparison.png" alt="Regional Average Scores" class="perf-img">
+                                <span class="chart-caption">Figure 2: Regional average scores. Europe ranks the highest.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab: Correlation Map -->
+                    <div class="tab-pane" id="tab-heatmap">
+                        <div class="perf-layout">
+                            <div class="perf-text">
+                                <h3>Pillar Influence Correlation</h3>
+                                <p>This correlation matrix evaluates the relative impact of each of the 12 individual freedoms. **Rule of Law** (Property Rights, Judicial Effectiveness, Government Integrity) represents the strongest drivers, while Government Size shows neutral correlation, indicating that state size alone does not dictate wealth if the Rule of Law is robust.</p>
+                                <table class="metrics-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Economic Freedom Pillar</th>
+                                            <th>Correlation (R) with GDP</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="highlight-row">
+                                            <td>Property Rights</td>
+                                            <td>+0.82 (Strongest)</td>
+                                        </tr>
+                                        <tr class="highlight-row">
+                                            <td>Government Integrity</td>
+                                            <td>+0.81 (Critical)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Business Freedom</td>
+                                            <td>+0.68 (High)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tax Burden</td>
+                                            <td>-0.15 (Slightly Negative)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="perf-chart-container">
+                                <img src="results/correlation_heatmap.png" alt="Correlation Matrix Heatmap" class="perf-img">
+                                <span class="chart-caption">Figure 3: Heatmap illustrating correlation indices.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab: Rankings -->
+                    <div class="tab-pane" id="tab-rankings">
+                        <div class="perf-layout">
+                            <div class="rankings-box">
+                                <h3>🏆 Top 5 Free Nations</h3>
+                                <ul class="rank-list" id="list-top-countries">
+                                    <li><span class="rank-num">1</span> <span>Singapore</span> <span class="rank-score">84.4</span></li>
+                                    <li><span class="rank-num">2</span> <span>Switzerland</span> <span class="rank-score">84.2</span></li>
+                                    <li><span class="rank-num">3</span> <span>Ireland</span> <span class="rank-score">82.0</span></li>
+                                    <li><span class="rank-num">4</span> <span>New Zealand</span> <span class="rank-score">80.6</span></li>
+                                    <li><span class="rank-num">5</span> <span>Luxembourg</span> <span class="rank-score">80.6</span></li>
+                                </ul>
+                            </div>
+                            <div class="rankings-box">
+                                <h3>⚠️ Bottom 5 Repressed Nations</h3>
+                                <ul class="rank-list" id="list-bottom-countries">
+                                    <li><span class="rank-num rank-bad">177</span> <span>North Korea</span> <span class="rank-score score-bad">3.0</span></li>
+                                    <li><span class="rank-num rank-bad">176</span> <span>Venezuela</span> <span class="rank-score score-bad">24.8</span></li>
+                                    <li><span class="rank-num rank-bad">175</span> <span>Cuba</span> <span class="rank-score score-bad">29.5</span></li>
+                                    <li><span class="rank-num rank-bad">174</span> <span>Sudan</span> <span class="rank-score score-bad">32.0</span></li>
+                                    <li><span class="rank-num rank-bad">173</span> <span>Zimbabwe</span> <span class="rank-score score-bad">33.1</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sandbox / Predictor Playground Section -->
+        <section id="sandbox" class="section">
+            <div class="section-header">
+                <h2>Prosperity Predictor Playground</h2>
+                <p>Adjust the slider bars for each of the 4 pillars of economic freedom and predict the resulting Prosperity Index and GDP per Capita.</p>
+            </div>
+
+            <div class="sandbox-container glass">
+                <div class="sandbox-sidebar">
+                    <h3>Pillar Configuration</h3>
+                    
+                    <div class="sandbox-options">
+                        <!-- Rule of Law -->
+                        <div class="opt-group">
+                            <div class="slider-header">
+                                <label><i class="fa-solid fa-gavel text-purple"></i> Rule of Law</label>
+                                <span class="slider-value" id="val-rule-of-law">60</span>
+                            </div>
+                            <input type="range" id="slider-rule-of-law" min="0" max="100" value="60" class="input-slider">
+                        </div>
+
+                        <!-- Govt Size -->
+                        <div class="opt-group">
+                            <div class="slider-header">
+                                <label><i class="fa-solid fa-coins text-cyan"></i> Government Size</label>
+                                <span class="slider-value" id="val-govt-size">60</span>
+                            </div>
+                            <input type="range" id="slider-govt-size" min="0" max="100" value="60" class="input-slider">
+                        </div>
+
+                        <!-- Regulatory Efficiency -->
+                        <div class="opt-group">
+                            <div class="slider-header">
+                                <label><i class="fa-solid fa-gears text-green"></i> Regulatory Efficiency</label>
+                                <span class="slider-value" id="val-reg-efficiency">60</span>
+                            </div>
+                            <input type="range" id="slider-reg-efficiency" min="0" max="100" value="60" class="input-slider">
+                        </div>
+
+                        <!-- Open Markets -->
+                        <div class="opt-group">
+                            <div class="slider-header">
+                                <label><i class="fa-solid fa-ship text-orange"></i> Open Markets</label>
+                                <span class="slider-value" id="val-open-markets">60</span>
+                            </div>
+                            <input type="range" id="slider-open-markets" min="0" max="100" value="60" class="input-slider">
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-block" id="btn-run-simulation"><i class="fa-solid fa-calculator"></i> Run Economic Simulation</button>
+                </div>
+
+                <div class="sandbox-display">
+                    <!-- Processing loader -->
+                    <div class="display-placeholder hidden" id="sim-loader">
+                        <div class="spinner"></div>
+                        <h4>Calculating macro-economic indexes...</h4>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="progress-sim"></div>
+                        </div>
+                        <p id="sim-loader-status">Running multi-variable regression...</p>
+                    </div>
+
+                    <!-- Output Area -->
+                    <div class="display-results" id="sim-results">
+                        <div class="results-top">
+                            <div class="results-header">
+                                <h4>Predictive Analysis Result</h4>
+                                <span class="modality-tag" id="sim-verdict-region"><i class="fa-solid fa-circle-nodes"></i> Model: Multiple Linear Regression</span>
+                            </div>
+                            <div class="score-container">
+                                <div class="score-radial">
+                                    <svg class="radial-svg" viewBox="0 0 100 100">
+                                        <circle class="bg-circle" cx="50" cy="50" r="40"></circle>
+                                        <circle class="fg-circle" cx="50" cy="50" r="40" id="radial-progress-bar"></circle>
+                                    </svg>
+                                    <div class="score-text">
+                                        <span class="score-percent" id="sim-overall-score">60.0</span>
+                                        <span class="score-lbl">Index Score</span>
+                                    </div>
+                                </div>
+                                <div class="verdict-block">
+                                    <label>Prosperity Category</label>
+                                    <h2 id="sim-verdict" class="verdict-healthy">Moderately Free</h2>
+                                    <p id="sim-gdp-estimate">Estimated GDP per Capita: $31,000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="results-bottom">
+                            <div class="results-details">
+                                <h5>Expected Socio-Economic Outcomes</h5>
+                                <div class="feature-rows">
+                                    <div class="feat-row">
+                                        <span>Investment Confidence Index</span>
+                                        <span class="feat-val" id="val-sim-investment">Moderate (6.5 / 10)</span>
+                                    </div>
+                                    <div class="feat-row">
+                                        <span>Estimated Sovereign Credit Rating</span>
+                                        <span class="feat-val" id="val-sim-credit">BBB+ (Stable)</span>
+                                    </div>
+                                    <div class="feat-row">
+                                        <span>Expected Innovation Capacity</span>
+                                        <span class="feat-val" id="val-sim-innovation">Average</span>
+                                    </div>
+                                    <div class="feat-row">
+                                        <span>Projected FDI Inflow</span>
+                                        <span class="feat-val" id="val-sim-fdi">$1.8 Billion / Year</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tableau Showcase Section -->
+        <section class="section">
+            <div class="section-header">
+                <h2>Tableau Story & Reports</h2>
+                <p>Our research includes advanced spatial visualizations and historical stories rendered in Tableau.</p>
+            </div>
+            <div class="glass" style="padding: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center;">
+                <div>
+                    <h3 style="font-family: var(--font-heading); font-size: 22px; margin-bottom: 12px;"><i class="fa-solid fa-chart-column text-cyan"></i> Interactive Tableau Story</h3>
+                    <p style="color: var(--text-muted); font-size: 14.5px; margin-bottom: 24px;">The Tableau dashboards explore temporal trends of global wealth indices, mapping economic freedom against global health, democratic strength, and innovation indexes. The story is preserved in the project files under the following formats:</p>
+                    <ul class="card-bullets" style="margin-bottom: 24px;">
+                        <li><i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> **Dashboard 1 (1).pdf**: Mapping and raw score breakdowns.</li>
+                        <li><i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> **Story 1 (1).pdf**: Dynamic narrative and insights.</li>
+                    </ul>
+                    <span class="badge badge-warning">Visualizations Saved in Repository</span>
+                </div>
+                <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 12px; border: 1px solid var(--border-color); text-align: center;">
+                    <i class="fa-solid fa-file-invoice-dollar" style="font-size: 80px; color: var(--primary); margin-bottom: 16px; display: block;"></i>
+                    <span style="font-size: 12px; color: var(--text-dark); display: block;">Tableau Reports Folder: `Tableau Dash Board and Story Pdf & Screenshot/`</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Index of Economic Freedom Analysis. Prepared for P.Tech Year 2 Evaluation.</p>
+        <p>Built with HTML5, CSS3, and JavaScript. Deployable on Netlify.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

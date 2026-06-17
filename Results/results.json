@@ -1,0 +1,52 @@
+{
+    "summary": {
+        "total_countries": 177,
+        "average_score": 60.1,
+        "median_score": 59.8
+    },
+    "top_10_countries": [
+        {"Country Name": "Singapore", "Region": "Asia-Pacific", "2022 Score": 84.4},
+        {"Country Name": "Switzerland", "Region": "Europe", "2022 Score": 84.2},
+        {"Country Name": "Ireland", "Region": "Europe", "2022 Score": 82.0},
+        {"Country Name": "New Zealand", "Region": "Asia-Pacific", "2022 Score": 80.6},
+        {"Country Name": "Luxembourg", "Region": "Europe", "2022 Score": 80.6},
+        {"Country Name": "Taiwan", "Region": "Asia-Pacific", "2022 Score": 80.1},
+        {"Country Name": "Estonia", "Region": "Europe", "2022 Score": 80.0},
+        {"Country Name": "Netherlands", "Region": "Europe", "2022 Score": 79.5},
+        {"Country Name": "Finland", "Region": "Europe", "2022 Score": 78.3},
+        {"Country Name": "Denmark", "Region": "Europe", "2022 Score": 78.0}
+    ],
+    "bottom_10_countries": [
+        {"Country Name": "North Korea", "Region": "Asia-Pacific", "2022 Score": 3.0},
+        {"Country Name": "Venezuela", "Region": "Americas", "2022 Score": 24.8},
+        {"Country Name": "Cuba", "Region": "Americas", "2022 Score": 29.5},
+        {"Country Name": "Sudan", "Region": "Sub-Saharan Africa", "2022 Score": 32.0},
+        {"Country Name": "Zimbabwe", "Region": "Sub-Saharan Africa", "2022 Score": 33.1},
+        {"Country Name": "Eritrea", "Region": "Sub-Saharan Africa", "2022 Score": 35.3},
+        {"Country Name": "Burundi", "Region": "Sub-Saharan Africa", "2022 Score": 39.4},
+        {"Country Name": "Central African Republic", "Region": "Sub-Saharan Africa", "2022 Score": 40.7},
+        {"Country Name": "Iran", "Region": "Middle East and North Africa", "2022 Score": 42.4},
+        {"Country Name": "Bolivia", "Region": "Americas", "2022 Score": 43.0}
+    ],
+    "regional_averages": {
+        "Europe": 69.5,
+        "Americas": 59.6,
+        "Asia-Pacific": 58.2,
+        "Middle East and North Africa": 57.1,
+        "Sub-Saharan Africa": 53.3
+    },
+    "prosperity_correlations": {
+        "Property Rights": 0.82,
+        "Judical Effectiveness": 0.79,
+        "Government Integrity": 0.81,
+        "Business Freedom": 0.68,
+        "Financial Freedom": 0.65,
+        "Investment Freedom": 0.61,
+        "Trade Freedom": 0.52,
+        "Monetary Freedom": 0.45,
+        "Labor Freedom": 0.41,
+        "Fiscal Health": 0.38,
+        "Govt Spending": -0.11,
+        "Tax Burden": -0.15
+    }
+}
